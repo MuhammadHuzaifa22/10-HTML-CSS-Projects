@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+:root{
+-purple500:#281154;
+-purple300:#270082;
+-purple600:#1b0058;
+-red600:#dc0000;
+-body:#f9f6ff;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:"Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header {
+    background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5p 5p 5p rgba(0,0,0,0.5);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover{
+border-bottom: 2px solid white;
+transition: 0.2s ease-in;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+.hero-section{
+    background-image: url('./Images/hero_image.png');
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+.hero-section .conatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section h1{
+    font-size: 96px;
+}
+.hero-section h3{
+    font-size: 32px;
+}
+.music-section{
+    padding-top: 50px;
+    background:#270082;
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.container p{
+    color: white;
+}
+.container h4{
+    color: white;
+}
+.container h2{
+    color: white;
+}
+.container h4 span{
+    color: white;
+}
+.ipad-iphone-img{
+    position: relative;
+    top: 400px;
+    margin-top:-400px;
+}
+button{
+    padding: 10px 20px;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+.primary-btn{
+    background-color:#dc0000; 
+    color: white;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity:0.8;
+}
+.secondary-btn{
+    background-color:#270082;
+    color: white;
+}
+.about-music{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-music p{
+    color: black;
+}
+.video-section{
+    display: grid;
+    color: white;
+    background-image: url('./Images/video.png');
+    min-height: 800px;
+    text-align: center;
+    place-items: center;
+}
+.video-section .container{
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section,.video-section{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gift-section{
+    display: flex;
+    margin: 100px 0;
+    gap: 50px;
+    justify-content: center;
+}
+.gift-content h3{
+    color: black;
+}
+.gift-content p{
+    color: black;
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-upper{
+    background-color:#1b0058;
+    padding: 20px;
+}
+.footer-upper .container{
+display: flex;
+color: white;
+justify-content: space-between;
+}
+.footer-upper h4{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+section{
+scroll-margin: 50px;
+}
+.footer-lower{
+    padding: 20px;
+    justify-content: center;
+display: flex;
+color: white;
+background-color:#270082;
+}
+.gift-section{
+    scroll-margin:120px;
+}

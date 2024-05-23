@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1400px;
+    box-shadow: 3px 3px 3px gray; 
+    padding-bottom: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main_text{
+    margin-top: 100px;
+}
+
+.logo_sec img{
+    margin-left: 100px;
+    position: absolute;
+}
+.icon_sec i{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.icon_one{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 350px;
+}
+.iconone_text{
+    display: flex;
+flex-direction: column;
+}
+.icon_two{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 350px;
+}
+.icontwo_text{
+    display: flex;
+flex-direction: column;
+}
+.icon_three{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 350px;
+}
+.icontwo_three{
+    display: flex;
+flex-direction: column;
+}
+.main_icon_sec{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "I1 I1 I2 I3" 
+                         "I1 I1 I2 I7"
+                         "I4 I5 I6 I7" ;
+}
+footer{
+    margin: 0;
+}
+.grid-image{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.grid-image:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.footdisp{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+.grid_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center;
+}
